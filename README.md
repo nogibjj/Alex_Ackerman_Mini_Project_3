@@ -1,19 +1,11 @@
-[![Format](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/format.yml)
-
-[![Install](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/install.yml)
-
-[![Lint](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/lint.yml)
-
-[![Test](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/test.yml)
+[![CI](https://github.com/nogibjj/Alex_Ackerman_Mini_Project_3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_Mini_Project_3/actions/workflows/cicd.yml)
 
 # IDS-706-Data-Engineering
 
-## Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
-
-### File Structure
+## Mini Project 3: Descriptive Statistics Using Polars
 
 ### Purpose of Project
-The purpose of this project is to create a Python script that utilizes Pandas to generate descriptive statistics.
+The purpose of this project is to create a Python script that utilizes Polars to generate descriptive statistics.
 
 ### About the Data
 The data used is provided by John Hogue and can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume)
@@ -22,7 +14,7 @@ The dataset contains the hourly traffic volume for MN DoT ATR station 301 locate
 
 ### Functions
 lib.py contains four functions:
-1. read_csv_file -- Takes in a .csv file name (as a string) and use Pandas to read the file into a dataframe
+1. read_csv_file -- Takes in a .csv file name (as a string) and use Polars to read the file into a dataframe
 
 2. stats_overview -- Takes a dataframe and column of interest and produces a dataframe with the following information: count, mean, standard deviation (std), minimum value (min), maximum value(max), lower percentile (25), 50th percentile (50), upper percentile (75), and median. NOTE: the median and 50th percentile are the same.
 
